@@ -1,0 +1,57 @@
+/*HEADER*/ 
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header-menu{
+    flex-grow: 3;
+
+}
+
+/*HEADER*/ 
+
+/* CARDS */ 
+
+.cards-row{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+/* CARDS */ 
+
+/* FOOTER */
+.footer-row{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;  
+}
+
+.social{
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;  
+}
+
+.footer-logo{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+
+}
+/* FOOTER */
